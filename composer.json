@@ -1,5 +1,5 @@
 {
-    "name"       : "mjsilva/InMemoryStorage",
+    "name"       : "mjsilva/in-memory-storage",
     "description": "Simple class that uses singleton pattern to save whatever in memory",
     "keywords"   : ["Storage", "Cache", "In Memory"],
     "license"    : "wtfpl",
