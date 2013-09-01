@@ -1,0 +1,23 @@
+{
+    "name"       : "mjsilva/InMemoryStorage",
+    "description": "Simple class that uses singleton pattern to save whatever in memory",
+    "keywords"   : ["Storage", "Cache", "In Memory"],
+    "license"    : "wtfpl",
+    "authors"    : [
+        {
+            "name"    : "Manuel Silva",
+            "email"   : "manuel@mjs.me",
+            "homepage": "http://manueljoaosilva.com"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.3.1"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "InMemoryStorage": "src/"
+        }
+    }
+}
