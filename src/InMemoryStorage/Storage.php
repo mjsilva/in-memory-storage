@@ -55,6 +55,16 @@ class Storage
 
     /**
      * @param string $name
+     * 
+     * @return bool
+     */
+    public function has($name)
+    {
+        return isset($this-storage[$name]);
+    }
+
+    /**
+     * @param string $name
      * @param mixed  $value
      */
     public function set($name, $value)
