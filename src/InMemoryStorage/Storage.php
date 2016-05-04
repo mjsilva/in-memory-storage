@@ -60,7 +60,7 @@ class Storage
      */
     public function has($name)
     {
-        return isset($this->storage[$name]);
+        return (array_key_exists($name, $this->storage) && null !== $this->storage[$name]);
     }
 
     /**
